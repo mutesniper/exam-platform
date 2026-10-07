@@ -5,7 +5,7 @@
 本项目采用**模块化单体架构（Modular Monolith）**，重点实践写/读高并发、MQ异步解耦及 Agent 工程化隔离。
 
 ## 技术栈
-- **基础底座**：Java 17, Spring Boot 3.x, MyBatis-Plus
+- **基础底座**：Java 17, Spring Boot 4.x, MyBatis-Plus
 - **数据存储**：MySQL 8.x, Redis 7.x
 - **高并发核心**：Redis Lua 脚本, Redisson, Sentinel
 - **异步与消息**：Kafka 3.x
